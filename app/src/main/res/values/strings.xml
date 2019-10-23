@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">hayari_app</string>
+    <string name="title_activity_aviso_privacidad">AvisoPrivacidad</string>
+    <string name="title_activity_menu_juegos">MenuJuegos</string>
+</resources>

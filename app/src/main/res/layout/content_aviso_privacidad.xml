@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AvisoPrivacidad"
+    tools:showIn="@layout/activity_aviso_privacidad"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aviso de privacidad"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="20">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sus datos personales serán utilizados para mantener el control de las entradas y salidas de quienes ingresan al edificio público del Instituto, y este tratamiento forma parte de las medidas de seguridad adoptadas al interior del mismo, por lo que, se comunica que no se efectuarán tratamientos adicionales.
+Se informa que no realizarán transferencias que requieran su consentimiento, salvo aquellas que sean necesarias para atender requerimientos de información de una autoridad competente, debidamente fundados y motivados."
+            android:padding="25dp"
+            android:layout_weight="80"
+            android:layout_gravity="center_vertical|end"/>
+
+    </LinearLayout>
+
+</LinearLayout>

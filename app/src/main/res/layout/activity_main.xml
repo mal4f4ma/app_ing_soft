@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al juego ideal para que los ninios, aprendar de forma didactica y divertida."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_jugar"
+            android:layout_width="match_parent"
+            android:text="Jugar"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_config"
+            android:layout_width="match_parent"
+            android:text="Configurar"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_exit"
+            android:layout_width="match_parent"
+            android:text="Salir"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/bt_aviso"
+            android:layout_width="match_parent"
+            android:text="aviso de privacidad"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>    
+
+</LinearLayout>
