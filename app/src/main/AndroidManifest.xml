@@ -24,6 +24,15 @@
         <activity
             android:name=".MenuJuegos"
             android:label="@string/title_activity_menu_juegos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Juego1" />
+        <activity
+            android:name=".Juego2"
+            android:label="@string/title_activity_juego2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Juego3"
+            android:label="@string/title_activity_juego3"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

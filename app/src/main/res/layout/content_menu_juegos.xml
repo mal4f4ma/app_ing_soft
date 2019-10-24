@@ -25,6 +25,7 @@
         android:layout_weight="60">
 
         <Button
+            android:id="@+id/bt_juego_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -32,6 +33,7 @@
             android:layout_weight="10"/>
 
         <Button
+            android:id="@+id/bt_juego_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -39,6 +41,7 @@
             android:layout_weight="10"/>
 
         <Button
+            android:id="@+id/bt_juego_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
