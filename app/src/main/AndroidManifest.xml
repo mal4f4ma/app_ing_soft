@@ -33,7 +33,8 @@
         <activity
             android:name=".Juego3"
             android:label="@string/title_activity_juego3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Juego2_f"></activity>
     </application>
 
 </manifest>

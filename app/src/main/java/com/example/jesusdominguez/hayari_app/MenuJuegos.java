@@ -43,7 +43,7 @@ public class MenuJuegos extends AppCompatActivity {
         bt_juego_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent juego2 = new Intent(MenuJuegos.this, Juego2.class);
+                Intent juego2 = new Intent(MenuJuegos.this, Juego2_f.class);
                 startActivity(juego2);
             }
         });
