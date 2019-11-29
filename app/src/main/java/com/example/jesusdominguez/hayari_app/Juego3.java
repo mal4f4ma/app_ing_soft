@@ -6,8 +6,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 
 public class Juego3 extends AppCompatActivity {
+
+    Button bt_puerco, bt_burro, bt_gallo, bt_borrego, bt_pollo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
